@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;700&family=Space+Grotesk:wght@400;700&display=swap');
+
 .uk-navbar-container {
-    background-color: #0B5563 !important;
+    background-color: #0D3B66 !important;
 }
 
 .btn-search {
@@ -36,7 +38,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Lato' !important;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .search-box {
@@ -68,6 +71,7 @@
 }
 
 .input-search {
+    padding-top: 20px;
     width: 300px;
     border-radius: 0px;
     background-color: transparent;
@@ -107,6 +111,10 @@ color: #E40066 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .search-container {
@@ -115,6 +123,7 @@ color: #E40066 !important;
     align-items: center;
     justify-content: center;
     margin-top: -220px;
+    
 }
 
 .weather {
@@ -124,7 +133,8 @@ color: #E40066 !important;
     max-width: 470px;
     text-align: center;
     align-items: center;
-    font-family: 'Lato' !important;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .input-search:focus {

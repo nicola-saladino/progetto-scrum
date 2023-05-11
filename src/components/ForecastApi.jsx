@@ -18,12 +18,12 @@ function ForecastApi() {
   };
 
   return (
-    <div className='container'>
+    <div className='container '>
       <div className='search-container'>
         <div className='search'>
           <div className='search-box'>
             <input className='input-search' type="text" placeholder="Type your City" value={city} onChange={event => setCity(event.target.value)} autocomplete="off" />
-            <button class="uk-button btn-search uk-button-default" onClick={handleSearch}>Search</button>
+            <button class="uk-button btn-search uk-button-default" onClick={handleSearch}>Cerca</button>
           </div>
         </div>
                 <div className='weather'>
