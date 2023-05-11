@@ -40,7 +40,7 @@ function ForecastApi() {
         <div className='weather'>
           {weather && weather.location && (
             <div>
-              <h2>{weather.location.name}, {weather.location.country},{weather.current.temp_c}°C</h2>
+              <h3>{weather.location.name}, {weather.location.country}, {weather.current.temp_c}°C</h3>
               <p>{weather.current.condition.text}</p>
               
               {weather.current.condition.icon && (
@@ -51,7 +51,7 @@ function ForecastApi() {
           )}
           {airQuality && (
             <div>
-              <h2>Qualità dell'aria</h2>
+              <h2>Qualità dell'aria:</h2>
               <p>CO: {airQuality.co.toFixed(1)} μg/m³</p>
               <p>PM2.5: {airQuality.pm2_5.toFixed(1)} μg/m³</p>
               <p>PM10: {airQuality.pm10.toFixed(1)} μg/m³</p>
