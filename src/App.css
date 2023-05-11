@@ -1,0 +1,17 @@
+.uk-navbar-container{
+    background-color: #C97064 !important;
+}
+
+.uk-button{
+    background-color: white !important;
+    font-weight: bold !important;
+}
+
+.uk-button:hover{
+    background-color: #BCB6E2 !important;
+    color: black !important;
+}
+
+.link{
+    color: black ;
+}

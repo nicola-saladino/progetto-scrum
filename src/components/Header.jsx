@@ -1,16 +1,16 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div>
       <nav className="uk-navbar-container">
         <div className="uk-container">
-          <div className="uk-navbar">
-            <div className="uk-flex uk-navbar-center">
-              <a className="uk-navbar-item uk-logo" href="#">Logo</a>
-              <div className="uk-margin-left uk-margin-auto-left">
-                <button className="uk-button uk-button-default">Button</button>
-              </div>
+          <div className="uk-navbar ">
+            <div className="uk-navbar-center ">
+              <a className="uk-navbar-item uk-logo uk-margin-medium-top" href="#">Logo</a>
+            </div>
+            <div className="uk-navbar-right uk-margin-medium-top">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="uk-button uk-button-default uk-margin-small-left">GitHub</a>
             </div>
           </div>
         </div>
