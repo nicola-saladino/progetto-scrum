@@ -1,14 +1,14 @@
 import './App.css';
 import './index.css';
 import Header from './components/Header';
-import Api from './components/Api';
+import ForecastApi from './components/ForecastApi';
 
 function App() {
   return (
     <div className="App">
 
       <Header/>
-      <Api/>
+      <ForecastApi/>
      
     </div>
   );

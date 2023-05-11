@@ -1,23 +1,132 @@
-.uk-navbar-container{
-    background-color: #C97064 !important;
+.uk-navbar-container {
+    background-color: #0B5563 !important;
 }
 
-.uk-button{
+.btn-search {
     background-color: white !important;
     font-weight: bold !important;
+    border-radius: 25px !important;
+    border-color: #0B5563 !important;
 }
 
-.uk-button:hover{
-    background-color: #BCB6E2 !important;
+.btn-search:hover {
+    background-color: #EB9486 !important;
     color: black !important;
 }
 
-.link{
-    color: black ;
+.link {
+    color: black;
 }
 
-.uk-logo{
-    width: 200px;
+.uk-logo {
+    width: 500px;
     height: auto;
-    padding-top: 20px !important;
+    padding-top: 25px !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.search {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato' !important;
+}
+
+.search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    padding-right: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.input-search::placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.input-search {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+
+.weather h2 {
+    color: #fff;
+}
+
+.fa-github{
+    height: 40px !important;
+    width: 40px !important;
+color: #E40066 !important;
+}
+
+.fa-arrow-right{
+    margin-left: 10px !important;
+    color: #E40066 !important;
+}
+
+.span-git{
+    color: #E40066 !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -220px;
+}
+
+.weather {
+    color: #fff;
+    margin-top: -450px;
+    padding: 40px 35px;
+    max-width: 470px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lato' !important;
+}
+
+.input-search:focus {
+    outline: none;
 }
