@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../logo.png'
 
 function Header() {
   return (
@@ -7,7 +8,7 @@ function Header() {
         <div className="uk-container">
           <div className="uk-navbar ">
             <div className="uk-navbar-center ">
-              <a className="uk-navbar-item uk-logo uk-margin-medium-top" href="#">Logo</a>
+              <img src={logo} alt='logo' className="uk-navbar-item uk-logo uk-margin-medium-top"></img>
             </div>
             <div className="uk-navbar-right uk-margin-medium-top">
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="uk-button uk-button-default uk-margin-small-left">GitHub</a>

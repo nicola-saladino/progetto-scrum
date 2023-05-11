@@ -15,3 +15,9 @@
 .link{
     color: black ;
 }
+
+.uk-logo{
+    width: 200px;
+    height: auto;
+    padding-top: 25px !important;
+}
