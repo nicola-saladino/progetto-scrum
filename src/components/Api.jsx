@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import 'uikit/dist/css/uikit.min.css';
 
 const WEATHER_API_KEY = '7bb0a89670a34cfbb2b75218231105';
 
@@ -28,14 +29,16 @@ function Api() {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input type="text" value={city} onChange={event => setCity(event.target.value)} />
-        <button type="submit">Search</button>
-      </form>
+    <div className="uk-container uk-position-center">
+   <form class="uk-search uk-search-default" onSubmit={handleSubmit}>
+  <button type="submit" class="uk-search-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/483/483356.png" alt="search" />
+  </button>
+  <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search" value={city} onChange={event => setCity(event.target.value)} />
+</form>
+
       {weather && weather.location && (
         <div>
-            
           <h2>{weather.location.name}, {weather.location.country}</h2>
           <p>{weather.current.condition.text}</p>
           <p>{weather.current.temp_c}°C</p>
